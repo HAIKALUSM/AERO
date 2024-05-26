@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Members</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .member {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .member:last-child {
+            border-bottom: none;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Group Members</h1>
+    <div class="container">
+        <div class="member">
+            <h2>Member 1</h2>
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Role:</strong> Engine Control System</p>
+            <p><strong>Email:</strong> john.doe@example.com</p>
+        </div>
+        <div class="member">
+            <h2>Member 2</h2>
+            <p><strong>Name:</strong> Jane Smith</p>
+            <p><strong>Role:</strong> Flight System</p>
+            <p><strong>Email:</strong> jane.smith@example.com</p>
+        </div>
+        <div class="member">
+            <h2>Member 3</h2>
+            <p><strong>Name:</strong> Alice Johnson</p>
+            <p><strong>Role:</strong> Avionics System</p>
+            <p><strong>Email:</strong> alice.johnson@example.com</p>
+        </div>
+        <div class="member">
+            <h2>Member 4</h2>
+            <p><strong>Name:</strong> Bob Brown</p>
+            <p><strong>Role:</strong> Landing Gear</p>
+            <p><strong>Email:</strong> bob.brown@example.com</p>
+        </div>
+        <div class="member">
+            <h2>Member 5</h2>
+            <p><strong>Name:</strong> Carol White</p>
+            <p><strong>Role:</strong> Fuel System</p>
+            <p><strong>Email:</strong> carol.white@example.com</p>
+        </div>
+    </div>
+</body>
+</html>
